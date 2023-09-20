@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Foldit:wght@100;400;600&display=swap');
+
+* {
+	box-sizing: border-box;
+    margin: 0px;
+}
+img {
+	display: block;
+	max-width: 100%;
+    margin: 0px;
+}
+
+main {
+    display: flex;flex: 1 2 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.row  {
+    padding: 1rem;
+    max-width: 650px;
+    max-height: 500px;
+    overflow: hidden;
+
+}
+
+.row2 {
+    padding: 1rem;
+    max-width: 1000px;
+    max-height: 500px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+.row3 {
+    padding: 3rem;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+p {
+    color: #3a3a3b;
+    font-family: 'Kanit', sans-serif
+}
+
+li{
+    line-height: 1.4rem;
+    font-size: 20px;
+    color:rgb(138, 129, 129)
+}
+
+h1 {
+    color: #54c911;
+    text-shadow: #420916;
+    font-family:'Rubik Pixels',cursive;
+    font-weight: 1000;
+    font-size: 80px;;
+    line-height: 6rem;
+    text-shadow: 3px 3px #420916;
+
+}
+
+h2 {
+    font-family: "Gill Sans", sans-serif;
+    color: #ffc014;
+    font-weight: 50px;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-shadow: 1.5px 1.5px #420916;
+    
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #7d42a9;
+    text-shadow: 1px 1px #420916;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'Foldit',cursive;
+    font-size: 2rem;
+    color: #000000;
+    text-shadow: 1px 1px #420916;
+    font-size: 25px;
+    font-weight: 400;
+}
+
